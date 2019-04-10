@@ -4,7 +4,7 @@ ConstrainedBox和SizedBox都是通过RenderConstrainedBox来渲染的。SizedBox
 
 ### ConstrainedBox
 
-ConstrainedBox用于对齐子widget添加额外的约束。例如，如果你想让子widget的最小高度是80像素，你可以使用`const BoxConstraints(minHeight: 80.0)`作为子widget的约束。
+ConstrainedBox用于对其子widget添加额外的约束。例如，如果你想让子widget的最小高度是80像素，你可以使用`const BoxConstraints(minHeight: 80.0)`作为子widget的约束。
 
 #### 示例
 
